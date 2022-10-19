@@ -1,0 +1,41 @@
+#a-tickets{
+    color:green;
+}
+
+#color-text-nav{
+    color: aliceblue;
+}
+
+#foto-carousel {
+    filter: brightness(50%);
+}
+
+.end-10 {
+    right: 10% !important;
+}
+
+span {
+    display: block;
+}
+.btn-size{
+    --bs-btn-padding-y: .10rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .60rem;
+}
+
+.btn-bold {
+    font-weight: bold;
+}
+
+#btn-R {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.bg-color {
+    background-color: rgb(126, 187, 34);
+}
+
+#footer {
+    background-color: #012d5a;
+}

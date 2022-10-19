@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" id="color-text-nav">
+      <img src="/assets/media/codoacodo.png" alt="Logo Codo a Codo" width="70" class="d-inline-block align-text-top">
+      Conf Bs As</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Conviértete en orador</a>
+        </li>
+        <li>
+          <a class="nav-link active " id="a-tickets" aria-current="page" href="#">Comprar tickets</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <div id="carouselExampleSlidesOnly" class="carousel slide position-relative" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/media/ba1.jpg" id="foto-carousel" class="d-block w-100" alt="Foto de buenos aires">
+        <div class="text-white position-absolute top-50 end-10 w-50 text-end">
+          <h2>Conf Bs As</h2>
+          <p>Bs As llega por primera vez a Argentina. Un eveneto para compartir con
+            nuestra comunidad el conocimiento y experiencia de los expertos que estan creando
+            el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes
+            de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!
+          </p>
+          <button type="button" class="btn btn-outline-light">quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section>
+    <div class="container p-4">
+      <div class="row text-center">
+        <div class="col align-self-center">
+          <h2 class="display-6 fs-6">CONOCE A LOS <span class="fs-1">ORADORES</span></h2>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-4">
+          <div class="card w-100">
+            <img src="assets/media/steve.jpg" class="card-img-top" alt="Steve Jobs">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning btn-size fw-bold" id="btn-js">JavaScript</button>
+              <button type="button" class="btn btn-info btn-size" id="btn-R">React</button> 
+                <h3 class="card-title">Steve Jobs</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas? 
+                  Unde necessitatibus minus autem, molestias nihil voluptatum pariatur! Voluptatibus quos debitiset tempore!</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-4">
+          <div class="card w-100">
+            <img src="assets/media/bill.jpg" class="card-img-top" alt="Bill Gates">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning btn-size fw-bold" id="btn-js">JavaScript</button>
+              <button type="button" class="btn btn-info btn-size" id="btn-R">React</button> 
+                <h3 class="card-title">Bill Gates</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas? 
+                  Unde necessitatibus minus autem, molestias nihil voluptatum pariatur! Voluptatibus quos debitiset tempore!</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-4">
+          <div class="card w-100">
+            <img src="assets/media/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+            <div class="card-body">
+              <button type="button" class="btn btn-secondary btn-size fw-bold">Negocios</button>
+              <button type="button" class="btn btn-danger btn-size fw-bold">Startups</button> 
+                <h3 class="card-title">Ada Lovelace</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptas? 
+                  Unde necessitatibus minus autem, molestias nihil voluptatum pariatur! Voluptatibus quos debitiset tempore!</p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row">
+      <div class="col-6 p-0">
+        <img src="./assets/media/honolulu.jpg" class="card-img-top" alt="Playa honolulu">
+      </div>
+      <div class="col-6 bg-dark text-white p-4">
+        <h2>Bs As - Octubre</h2>
+        <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
+          Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses.
+          Aunque el nombre se refiere al área urbana en la costa sureste de la isla de Oahu,
+          la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre
+          toda la ciudad (aproximadamente de 600 km² de superficie).
+        </p>
+        <button type="button" class="btn btn-outline-light">Conoce mas</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container p-4">
+      <div class="row text-center">
+        <div class="col align-self-center">
+          <h2 class="display-6 fs-6">CONVIERTETE EN UN <span class="fs-1 fw-bold">ORADOR</span></h2>
+          <p>Anotate como orador para dar una <abbr title="attribute">charla ignate</abbr> . Cuentanos de que quieres hablar! </p>
+        </div>
+      </div>
+      <form>
+        <div class="row ">
+          <div class="col p-1">
+              <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+          </div>
+          <div class="col p-2">
+              <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+          </div>
+      </div>   
+      <div class="row p-1">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que quieres hablar?"></textarea>
+          <label for="exampleFormControlTextarea1" class="text-muted p-2">Recuerda incluir un titulo para tu charla</label>
+          <button type="button" class="btn btn-success p-1 m-1 bg-color">Enviar</button>
+      </div>            
+    </form>
+    </div>
+  </section>
+</main>
+<footer id="footer">
+  <ul class="nav justify-content-center p-3 text-wrap">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Preguntas frecuentes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contáctanos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Prensa</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Conferencias</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#">Terminos y condiciones</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#">Privacidad</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#">Estudiantes</a>
+    </li>
+  </ul>
+</footer>
+</body>
+</html>
